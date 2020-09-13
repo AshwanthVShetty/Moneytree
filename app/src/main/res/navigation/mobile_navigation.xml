@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+<fragment
+    android:id="@+id/navigation_home"
+    android:name="com.example.moneytree.BottomNavFragments.HomeFragmnet"
+    android:label="Home"
+    tools:layout="@layout/frg_create"/>
+
+    <fragment
+        android:id="@+id/navigation_create"
+        android:name="com.example.moneytree.BottomNavFragments.CreateFragment"
+        android:label="Create"
+        tools:layout="@layout/frg_create"/>
+
+    <fragment
+        android:id="@+id/navigation_join"
+        android:name="com.example.moneytree.BottomNavFragments.JoinFragment"
+        android:label="Join"
+        tools:layout="@layout/frg_join"/>
+
+
+
+
+
+</navigation>

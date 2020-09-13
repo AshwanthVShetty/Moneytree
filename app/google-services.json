@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633153806684",
+    "firebase_url": "https://moneytree-ecb8a.firebaseio.com",
+    "project_id": "moneytree-ecb8a",
+    "storage_bucket": "moneytree-ecb8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633153806684:android:b44fc3e6832e48df38a199",
+        "android_client_info": {
+          "package_name": "com.example.moneytree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633153806684-eeae0lvqmgbu4meqcru8jrj0jvlet2p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moneytree",
+            "certificate_hash": "3d2de1fe3943b25aa694c3ea38c8e2ec0ea95f64"
+          }
+        },
+        {
+          "client_id": "633153806684-nrvd3n7gjpui03bu2uco0d1aftf4j8c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArIWVif5oCURyTUzTQdK7BQupFosLuKxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633153806684-nrvd3n7gjpui03bu2uco0d1aftf4j8c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

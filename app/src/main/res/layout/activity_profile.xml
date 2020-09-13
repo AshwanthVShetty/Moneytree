@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:layout_marginTop="20dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/image_fab_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/caemra_icon_1x"
+        app:fabSize="mini"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignBottom="@+id/profieImage"
+        android:layout_alignRight="@+id/profieImage"
+
+        />
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profieImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:strokeColor="@color/colorPrimaryDark"
+        android:src="@mipmap/default_profile_pic_round"
+        app:strokeWidth="3dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/profieImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/textview_custom_shape"
+        android:textColor="#fff"
+        android:text="bxuicbiucuiciuemnxzk"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:text="User Name"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uid"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/uname_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv1"
+        android:layout_margin="20dp"
+        android:hint="Username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/uname"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:text="Phone Number"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uname_layout"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/uphNo"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/textview_custom_shape"
+        android:textColor="#fff"
+        android:text="bxuicbiucuiciuemnxzk"
+        android:gravity="center"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:text="Credit Score"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uphNo"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ucreditScore"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/textview_custom_shape"
+        android:textColor="#fff"
+        android:text="0"
+        android:gravity="center"
+        />
+
+<!--    <com.google.android.material.textview.MaterialTextView-->
+<!--        android:id="@+id/ucreditScore"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@+id/uid"-->
+<!--        />-->
+<!--    <com.google.android.material.textview.MaterialTextView-->
+<!--        android:id="@+id/uphNo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@+id/ucreditScore"-->
+<!--        android:layout_margin="20dp"/>-->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:text="Number of Networks Created"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ucreditScore"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/nCreated"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/textview_custom_shape"
+        android:textColor="#fff"
+        android:text="0"
+        android:gravity="center"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:text="Number of Networks Joined"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nCreated"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/nJoined"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/textview_custom_shape"
+        android:textColor="#fff"
+        android:text="0"
+        android:gravity="center"
+        />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Update"
+    android:id="@+id/update_btn"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="30dp"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/createLayout"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter name for your network"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/network_name"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textColorHint="#fff"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Maximun Amount You want to invest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/maxamnt"
+        android:layout_below="@+id/network_name"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textColorHint="#fff"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/createNetworkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Network"
+        android:layout_below="@+id/maxamnt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+
+
+
+
+
+</RelativeLayout>
